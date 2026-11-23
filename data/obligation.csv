@@ -1,0 +1,5 @@
+course,scenario,required,simulation_allowed
+C1,explain,1,0
+C1,listen,1,1
+C2,explain,1,1
+C2,listen,1,1

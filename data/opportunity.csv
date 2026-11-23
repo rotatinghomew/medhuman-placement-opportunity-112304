@@ -1,0 +1,11 @@
+id,activity,rotation,day,begin,end,place,scenario,mode,teachers,capacity
+O1,E1,R1,1,565,600,A,explain,real,T1,2
+O2,E1,R2,1,565,600,A,explain,real,T1,2
+O3,E2,R2,2,565,600,B,listen,real,T3,1
+O4,E3,R1,2,575,620,A,listen,real,T1,1
+O5,E4,R2,3,575,610,B,explain,real,T1,1
+O6,E5,R2,5,540,590,B,listen,sim,T2,2
+O7,E6,R1,5,550,590,A,explain,real,T1,1
+O8,E7,R1,6,550,600,A,explain,sim,T2,2
+O9,E8,R1,6,560,610,A,explain,real,T1,1
+O10,E9,R2,7,570,630,B,listen,real,T3,1

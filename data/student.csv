@@ -1,0 +1,7 @@
+id,course,rotation,home,apply_order,deadline
+S1,C1,R1,A,2,6
+S2,C1,R1,A,1,6
+S3,C1,R2,B,3,7
+S4,C2,R2,B,4,8
+S5,C2,R2,B,5,8
+S6,C2,R1,A,6,8

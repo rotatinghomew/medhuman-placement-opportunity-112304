@@ -1,0 +1,7 @@
+teacher,scenario,mode,start_day,end_day
+T1,explain,real,1,7
+T1,listen,real,1,8
+T2,explain,sim,1,8
+T2,listen,sim,1,8
+T3,listen,real,3,8
+T3,explain,real,1,4

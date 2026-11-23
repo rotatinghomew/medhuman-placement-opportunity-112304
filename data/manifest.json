@@ -1,0 +1,69 @@
+{
+  "student.csv": [
+    "id",
+    "course",
+    "rotation",
+    "home",
+    "apply_order",
+    "deadline"
+  ],
+  "obligation.csv": [
+    "course",
+    "scenario",
+    "required",
+    "simulation_allowed"
+  ],
+  "travel.csv": [
+    "origin",
+    "destination",
+    "minutes"
+  ],
+  "busy.csv": [
+    "student",
+    "day",
+    "begin",
+    "end",
+    "location"
+  ],
+  "supervisor.csv": [
+    "teacher",
+    "scenario",
+    "mode",
+    "start_day",
+    "end_day"
+  ],
+  "opportunity.csv": [
+    "id",
+    "activity",
+    "rotation",
+    "day",
+    "begin",
+    "end",
+    "place",
+    "scenario",
+    "mode",
+    "teachers",
+    "capacity"
+  ],
+  "announcement.csv": [
+    "student",
+    "opportunity",
+    "sent_at",
+    "status"
+  ],
+  "permission.csv": [
+    "activity",
+    "restricted_mode",
+    "allowed",
+    "valid_from",
+    "received_at"
+  ],
+  "receipt.csv": [
+    "id",
+    "student",
+    "opportunity",
+    "status",
+    "received_at",
+    "supersedes"
+  ]
+}

@@ -1,0 +1,10 @@
+student,opportunity,sent_at,status
+S1,O1,400,notified
+S2,O1,400,notified
+S3,O2,401,notified
+S3,O3,410,notified
+S4,O3,410,notified
+S5,O5,415,notified
+S6,O4,420,notified
+S6,O9,6030,accepted
+S4,O6,6050,accepted

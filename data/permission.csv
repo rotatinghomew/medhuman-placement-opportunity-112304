@@ -1,0 +1,10 @@
+activity,restricted_mode,allowed,valid_from,received_at
+E1,real,2,1800,1800
+E1,real,1,1980,1980
+E2,real,1,3000,3001
+E3,real,1,3001,3001
+E4,real,0,4700,4700
+E4,real,1,4705,6900
+E6,real,1,6600,6600
+E8,real,1,8050,8050
+E9,real,1,9500,9500

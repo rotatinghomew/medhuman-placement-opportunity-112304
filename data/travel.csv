@@ -1,0 +1,5 @@
+origin,destination,minutes
+A,A,0
+A,B,25
+B,A,30
+B,B,0
