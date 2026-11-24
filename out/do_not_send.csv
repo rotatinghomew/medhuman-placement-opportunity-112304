@@ -1,0 +1,8 @@
+student,scope,code,detail,opportunity
+S1,listen,new_assignment_already_selected,本轮已生成安排，不重复发同一缺口邀请,
+S2,explain,new_assignment_already_selected,本轮已生成安排，不重复发同一缺口邀请,
+S3,listen,new_assignment_already_selected,本轮已生成安排，不重复发同一缺口邀请,
+S4,explain,new_assignment_already_selected,本轮已生成安排，不重复发同一缺口邀请,
+S4,listen,accepted_appointment_protected,已接受预约不自动变空位；如需换约，只能向学生发起一次征询,O6
+*,explain,opportunity_not_to_issue,"capacity_exhausted,permission_capacity_exhausted",O9
+S6,explain,accepted_appointment_protected,已接受预约不自动变空位；如需换约，只能向学生发起一次征询,O9

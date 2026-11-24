@@ -1,0 +1,10 @@
+student,activity,opportunities,receipt_ids,completed,completion_counted_once,counted_opportunity
+S1,E1,"[""O1""]","[""X1""]",True,True,O1
+S2,E1,"[""O1""]","[""X3""]",False,False,
+S3,E1,"[""O2""]","[""X2""]",False,False,
+S3,E2,"[""O3""]",[],False,False,
+S4,E2,"[""O3""]",[],False,False,
+S4,E5,"[""O6""]","[""X7""]",False,False,
+S5,E4,"[""O5""]","[""X6""]",True,True,O5
+S6,E3,"[""O4""]","[""X4""]",False,False,
+S6,E8,"[""O9""]","[""X8""]",False,False,

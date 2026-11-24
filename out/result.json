@@ -1,0 +1,3677 @@
+{
+  "root": "data",
+  "evidence_as_of": null,
+  "now": 6940,
+  "accounting": {
+    "as_of": null,
+    "now": 6940,
+    "records": [
+      {
+        "student": "S1",
+        "course": "C1",
+        "original_rotation": "R1",
+        "student_deadline": 6,
+        "apply_order": 2,
+        "opportunity": "O1",
+        "opportunity_rotation": "R1",
+        "activity": "E1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": true,
+        "was_present": true,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 400,
+        "announcement_status": "notified",
+        "receipt_id": "X1",
+        "receipt_status": "present",
+        "receipt_at": 2101,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "A",
+        "travel_minutes": 0,
+        "earliest_arrival": 1990,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 1980,
+        "planned_permission_allowed": 2,
+        "planned_attendable": true,
+        "actual_attendable": true,
+        "completed": true,
+        "loss_source": "none",
+        "loss_source_zh": "无损失",
+        "loss_reason": "completed",
+        "loss_reason_zh": "学生已到场完成",
+        "factors": [],
+        "compensation_route": "fulfilled",
+        "compensation_eligible": false,
+        "dedupe_key": "S1|E1",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S2",
+        "course": "C1",
+        "original_rotation": "R1",
+        "student_deadline": 6,
+        "apply_order": 1,
+        "opportunity": "O1",
+        "opportunity_rotation": "R1",
+        "activity": "E1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": false,
+        "present": false,
+        "was_present": false,
+        "was_refused": true,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 400,
+        "announcement_status": "notified",
+        "receipt_id": "X3",
+        "receipt_status": "refused",
+        "receipt_at": 2103,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": false,
+        "schedule_reason": "schedule_conflict",
+        "arrival_origin": null,
+        "travel_minutes": null,
+        "earliest_arrival": null,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 1980,
+        "planned_permission_allowed": 2,
+        "planned_attendable": false,
+        "actual_attendable": false,
+        "completed": false,
+        "loss_source": "activity",
+        "loss_source_zh": "教学活动未发生（取消、同意撤回、许可或容量变化）",
+        "loss_reason": "consent_withdrawn",
+        "loss_reason_zh": "同意撤回或家属临时谢绝旁听",
+        "factors": [
+          {
+            "source": "activity",
+            "reason": "receipt_refused"
+          },
+          {
+            "source": "student",
+            "reason": "schedule_conflict"
+          }
+        ],
+        "compensation_route": "coordinator_review_mixed_cause",
+        "compensation_eligible": false,
+        "dedupe_key": "S2|E1",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S3",
+        "course": "C1",
+        "original_rotation": "R2",
+        "student_deadline": 7,
+        "apply_order": 3,
+        "opportunity": "O2",
+        "opportunity_rotation": "R2",
+        "activity": "E1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 401,
+        "announcement_status": "notified",
+        "receipt_id": "X2",
+        "receipt_status": "cancelled",
+        "receipt_at": 2102,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "B",
+        "travel_minutes": 30,
+        "earliest_arrival": 431,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 1980,
+        "planned_permission_allowed": 2,
+        "planned_attendable": true,
+        "actual_attendable": false,
+        "completed": false,
+        "loss_source": "activity",
+        "loss_source_zh": "教学活动未发生（取消、同意撤回、许可或容量变化）",
+        "loss_reason": "activity_cancelled",
+        "loss_reason_zh": "回执确认机会取消/教学活动未发生",
+        "factors": [
+          {
+            "source": "activity",
+            "reason": "receipt_cancelled"
+          }
+        ],
+        "compensation_route": "priority_compensation",
+        "compensation_eligible": true,
+        "dedupe_key": "S3|E1",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S3",
+        "course": "C1",
+        "original_rotation": "R2",
+        "student_deadline": 7,
+        "apply_order": 3,
+        "opportunity": "O3",
+        "opportunity_rotation": "R2",
+        "activity": "E2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 410,
+        "announcement_status": "notified",
+        "receipt_id": null,
+        "receipt_status": null,
+        "receipt_at": null,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "B",
+        "travel_minutes": 0,
+        "earliest_arrival": 3430,
+        "supervision_ok": false,
+        "supervision_reason": "supervision_shortage",
+        "qualified_teachers": "",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 3001,
+        "planned_permission_allowed": 1,
+        "planned_attendable": true,
+        "actual_attendable": false,
+        "completed": false,
+        "loss_source": "supervision",
+        "loss_source_zh": "带教不足",
+        "loss_reason": "supervision_shortage",
+        "loss_reason_zh": "所列教师没有覆盖该场景/方式/日期的带教资格",
+        "factors": [
+          {
+            "source": "supervision",
+            "reason": "supervision_shortage"
+          }
+        ],
+        "compensation_route": "priority_compensation",
+        "compensation_eligible": true,
+        "dedupe_key": "S3|E2",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S4",
+        "course": "C2",
+        "original_rotation": "R2",
+        "student_deadline": 8,
+        "apply_order": 4,
+        "opportunity": "O3",
+        "opportunity_rotation": "R2",
+        "activity": "E2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 410,
+        "announcement_status": "notified",
+        "receipt_id": null,
+        "receipt_status": null,
+        "receipt_at": null,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "B",
+        "travel_minutes": 0,
+        "earliest_arrival": 410,
+        "supervision_ok": false,
+        "supervision_reason": "supervision_shortage",
+        "qualified_teachers": "",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 3001,
+        "planned_permission_allowed": 1,
+        "planned_attendable": true,
+        "actual_attendable": false,
+        "completed": false,
+        "loss_source": "supervision",
+        "loss_source_zh": "带教不足",
+        "loss_reason": "supervision_shortage",
+        "loss_reason_zh": "所列教师没有覆盖该场景/方式/日期的带教资格",
+        "factors": [
+          {
+            "source": "supervision",
+            "reason": "supervision_shortage"
+          }
+        ],
+        "compensation_route": "priority_compensation",
+        "compensation_eligible": true,
+        "dedupe_key": "S4|E2",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S5",
+        "course": "C2",
+        "original_rotation": "R2",
+        "student_deadline": 8,
+        "apply_order": 5,
+        "opportunity": "O5",
+        "opportunity_rotation": "R2",
+        "activity": "E4",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 3,
+        "begin": 575,
+        "end": 610,
+        "place": "B",
+        "start_abs": 4895,
+        "end_abs": 4930,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": true,
+        "was_present": true,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": false,
+        "sent_at": 415,
+        "announcement_status": "notified",
+        "receipt_id": "X6",
+        "receipt_status": "present",
+        "receipt_at": 6940,
+        "receipt_supersedes": "X5",
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "B",
+        "travel_minutes": 0,
+        "earliest_arrival": 415,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 6900,
+        "planned_permission_allowed": 0,
+        "planned_attendable": true,
+        "actual_attendable": true,
+        "completed": true,
+        "loss_source": "none",
+        "loss_source_zh": "无损失",
+        "loss_reason": "completed",
+        "loss_reason_zh": "学生已到场完成",
+        "factors": [],
+        "compensation_route": "fulfilled",
+        "compensation_eligible": false,
+        "dedupe_key": "S5|E4",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S6",
+        "course": "C2",
+        "original_rotation": "R1",
+        "student_deadline": 8,
+        "apply_order": 6,
+        "opportunity": "O4",
+        "opportunity_rotation": "R1",
+        "activity": "E3",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "time_state": "past",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": true,
+        "accepted": false,
+        "sent_at": 420,
+        "announcement_status": "notified",
+        "receipt_id": "X4",
+        "receipt_status": "no_show",
+        "receipt_at": 3560,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "A",
+        "travel_minutes": 0,
+        "earliest_arrival": 420,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 3001,
+        "planned_permission_allowed": 1,
+        "planned_attendable": true,
+        "actual_attendable": true,
+        "completed": false,
+        "loss_source": "student",
+        "loss_source_zh": "学生不能到场（时间/路程冲突或已确认缺席）",
+        "loss_reason": "student_confirmed_absent",
+        "loss_reason_zh": "现场回执已确认未到；不得按院方损失补偿",
+        "factors": [
+          {
+            "source": "student",
+            "reason": "student_confirmed_absent"
+          }
+        ],
+        "compensation_route": "student_application",
+        "compensation_eligible": false,
+        "dedupe_key": "S6|E3",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S6",
+        "course": "C2",
+        "original_rotation": "R1",
+        "student_deadline": 8,
+        "apply_order": 6,
+        "opportunity": "O9",
+        "opportunity_rotation": "R1",
+        "activity": "E8",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 6,
+        "begin": 560,
+        "end": 610,
+        "place": "A",
+        "start_abs": 9200,
+        "end_abs": 9250,
+        "time_state": "upcoming",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": true,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": true,
+        "sent_at": 6030,
+        "announcement_status": "accepted",
+        "receipt_id": "X8",
+        "receipt_status": "held",
+        "receipt_at": 6035,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": true,
+        "schedule_reason": "arrival_feasible",
+        "arrival_origin": "A",
+        "travel_minutes": 0,
+        "earliest_arrival": 6030,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T1",
+        "permission_status": "permission_ok",
+        "permission_allowed": 1,
+        "actual_permission_received_at": 8050,
+        "planned_permission_allowed": 1,
+        "planned_attendable": true,
+        "actual_attendable": null,
+        "completed": false,
+        "loss_source": "pending",
+        "loss_source_zh": "预约尚未到期",
+        "loss_reason": "not_due",
+        "loss_reason_zh": "尚未到回执时间",
+        "factors": [],
+        "compensation_route": "pending_or_secured",
+        "compensation_eligible": false,
+        "dedupe_key": "S6|E8",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      },
+      {
+        "student": "S4",
+        "course": "C2",
+        "original_rotation": "R2",
+        "student_deadline": 8,
+        "apply_order": 4,
+        "opportunity": "O6",
+        "opportunity_rotation": "R2",
+        "activity": "E5",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "time_state": "upcoming",
+        "notified": true,
+        "was_notified": true,
+        "can_arrive": false,
+        "present": false,
+        "was_present": false,
+        "was_refused": false,
+        "confirmed_absent": false,
+        "accepted": true,
+        "sent_at": 6050,
+        "announcement_status": "accepted",
+        "receipt_id": "X7",
+        "receipt_status": "held",
+        "receipt_at": 6060,
+        "receipt_supersedes": null,
+        "receipt_conflict_ids": "",
+        "schedule_feasible": false,
+        "schedule_reason": "schedule_conflict",
+        "arrival_origin": null,
+        "travel_minutes": null,
+        "earliest_arrival": null,
+        "supervision_ok": true,
+        "supervision_reason": "supervision_qualified",
+        "qualified_teachers": "T2",
+        "permission_status": "sim_no_clinical_permission_required",
+        "permission_allowed": null,
+        "actual_permission_received_at": null,
+        "planned_permission_allowed": null,
+        "planned_attendable": false,
+        "actual_attendable": false,
+        "completed": false,
+        "loss_source": "student",
+        "loss_source_zh": "学生不能到场（时间/路程冲突或已确认缺席）",
+        "loss_reason": "schedule_conflict",
+        "loss_reason_zh": "与已有课业或受保护预约时间冲突",
+        "factors": [
+          {
+            "source": "student",
+            "reason": "schedule_conflict"
+          }
+        ],
+        "compensation_route": "student_application",
+        "compensation_eligible": false,
+        "dedupe_key": "S4|E5",
+        "overlap_with": [],
+        "metric_representative": true,
+        "warnings": []
+      }
+    ],
+    "event_claims": [
+      {
+        "student": "S1",
+        "activity": "E1",
+        "opportunities": [
+          "O1"
+        ],
+        "receipt_ids": [
+          "X1"
+        ],
+        "completed": true,
+        "completion_counted_once": true,
+        "counted_opportunity": "O1"
+      },
+      {
+        "student": "S2",
+        "activity": "E1",
+        "opportunities": [
+          "O1"
+        ],
+        "receipt_ids": [
+          "X3"
+        ],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S3",
+        "activity": "E1",
+        "opportunities": [
+          "O2"
+        ],
+        "receipt_ids": [
+          "X2"
+        ],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S3",
+        "activity": "E2",
+        "opportunities": [
+          "O3"
+        ],
+        "receipt_ids": [],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S4",
+        "activity": "E2",
+        "opportunities": [
+          "O3"
+        ],
+        "receipt_ids": [],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S4",
+        "activity": "E5",
+        "opportunities": [
+          "O6"
+        ],
+        "receipt_ids": [
+          "X7"
+        ],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S5",
+        "activity": "E4",
+        "opportunities": [
+          "O5"
+        ],
+        "receipt_ids": [
+          "X6"
+        ],
+        "completed": true,
+        "completion_counted_once": true,
+        "counted_opportunity": "O5"
+      },
+      {
+        "student": "S6",
+        "activity": "E3",
+        "opportunities": [
+          "O4"
+        ],
+        "receipt_ids": [
+          "X4"
+        ],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      },
+      {
+        "student": "S6",
+        "activity": "E8",
+        "opportunities": [
+          "O9"
+        ],
+        "receipt_ids": [
+          "X8"
+        ],
+        "completed": false,
+        "completion_counted_once": false,
+        "counted_opportunity": null
+      }
+    ],
+    "activity_audit": [
+      {
+        "activity": "E1",
+        "opportunities": [
+          "O1",
+          "O2"
+        ],
+        "students": [
+          "S1",
+          "S2",
+          "S3"
+        ],
+        "receipt_statuses": [
+          "cancelled",
+          "present",
+          "refused"
+        ],
+        "interpretation": "activity_occurred_but_some_student_seats_were_cancelled_or_evidence_conflicts",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      },
+      {
+        "activity": "E2",
+        "opportunities": [
+          "O3"
+        ],
+        "students": [
+          "S3",
+          "S4"
+        ],
+        "receipt_statuses": [
+          "missing"
+        ],
+        "interpretation": "no_completion_claim",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      },
+      {
+        "activity": "E3",
+        "opportunities": [
+          "O4"
+        ],
+        "students": [
+          "S6"
+        ],
+        "receipt_statuses": [
+          "no_show"
+        ],
+        "interpretation": "no_completion_claim",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      },
+      {
+        "activity": "E4",
+        "opportunities": [
+          "O5"
+        ],
+        "students": [
+          "S5"
+        ],
+        "receipt_statuses": [
+          "present"
+        ],
+        "interpretation": "occurred",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      },
+      {
+        "activity": "E5",
+        "opportunities": [
+          "O6"
+        ],
+        "students": [
+          "S4"
+        ],
+        "receipt_statuses": [
+          "held"
+        ],
+        "interpretation": "no_completion_claim",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      },
+      {
+        "activity": "E8",
+        "opportunities": [
+          "O9"
+        ],
+        "students": [
+          "S6"
+        ],
+        "receipt_statuses": [
+          "held"
+        ],
+        "interpretation": "no_completion_claim",
+        "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+      }
+    ],
+    "opportunity_views": {
+      "O1": {
+        "opportunity": {
+          "id": "O1",
+          "activity": "E1",
+          "rotation": "R1",
+          "day": 1,
+          "begin": 565,
+          "end": 600,
+          "place": "A",
+          "scenario": "explain",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 2,
+          "_line": 2
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E1",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 1980,
+            "received_at": 1980,
+            "_line": 3
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 2,
+          "status": "original_registered",
+          "row": {
+            "activity": "E1",
+            "restricted_mode": "real",
+            "allowed": 2,
+            "valid_from": 1800,
+            "received_at": 1800,
+            "_line": 2
+          }
+        },
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "time_state": "past",
+        "active_students": [
+          "S1"
+        ],
+        "protected_students": [],
+        "present_students": [
+          "S1"
+        ],
+        "absent_students": [],
+        "active_count": 1,
+        "protected_count": 0,
+        "own_remaining_capacity": 1,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "time_past"
+        ],
+        "permission_used_global": 1,
+        "permission_remaining_global": 0
+      },
+      "O2": {
+        "opportunity": {
+          "id": "O2",
+          "activity": "E1",
+          "rotation": "R2",
+          "day": 1,
+          "begin": 565,
+          "end": 600,
+          "place": "A",
+          "scenario": "explain",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 2,
+          "_line": 3
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E1",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 1980,
+            "received_at": 1980,
+            "_line": 3
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 2,
+          "status": "original_registered",
+          "row": {
+            "activity": "E1",
+            "restricted_mode": "real",
+            "allowed": 2,
+            "valid_from": 1800,
+            "received_at": 1800,
+            "_line": 2
+          }
+        },
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "time_state": "past",
+        "active_students": [],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 0,
+        "protected_count": 0,
+        "own_remaining_capacity": 2,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "time_past"
+        ],
+        "permission_used_global": 1,
+        "permission_remaining_global": 0
+      },
+      "O3": {
+        "opportunity": {
+          "id": "O3",
+          "activity": "E2",
+          "rotation": "R2",
+          "day": 2,
+          "begin": 565,
+          "end": 600,
+          "place": "B",
+          "scenario": "listen",
+          "mode": "real",
+          "teachers": [
+            "T3"
+          ],
+          "capacity": 1,
+          "_line": 4
+        },
+        "supervision": {
+          "ok": false,
+          "reason": "supervision_shortage",
+          "qualified": []
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E2",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 3000,
+            "received_at": 3001,
+            "_line": 4
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 1,
+          "status": "original_registered",
+          "row": {
+            "activity": "E2",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 3000,
+            "received_at": 3001,
+            "_line": 4
+          }
+        },
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "time_state": "past",
+        "active_students": [
+          "S3",
+          "S4"
+        ],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 2,
+        "protected_count": 0,
+        "own_remaining_capacity": 0,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "time_past",
+          "supervision_shortage"
+        ],
+        "permission_used_global": 2,
+        "permission_remaining_global": 0
+      },
+      "O4": {
+        "opportunity": {
+          "id": "O4",
+          "activity": "E3",
+          "rotation": "R1",
+          "day": 2,
+          "begin": 575,
+          "end": 620,
+          "place": "A",
+          "scenario": "listen",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 1,
+          "_line": 5
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E3",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 3001,
+            "received_at": 3001,
+            "_line": 5
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 1,
+          "status": "original_registered",
+          "row": {
+            "activity": "E3",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 3001,
+            "received_at": 3001,
+            "_line": 5
+          }
+        },
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "time_state": "past",
+        "active_students": [
+          "S6"
+        ],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [
+          "S6"
+        ],
+        "active_count": 1,
+        "protected_count": 0,
+        "own_remaining_capacity": 0,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "time_past"
+        ],
+        "permission_used_global": 1,
+        "permission_remaining_global": 0
+      },
+      "O5": {
+        "opportunity": {
+          "id": "O5",
+          "activity": "E4",
+          "rotation": "R2",
+          "day": 3,
+          "begin": 575,
+          "end": 610,
+          "place": "B",
+          "scenario": "explain",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 1,
+          "_line": 6
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E4",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 4705,
+            "received_at": 6900,
+            "_line": 7
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 0,
+          "status": "original_registered",
+          "row": {
+            "activity": "E4",
+            "restricted_mode": "real",
+            "allowed": 0,
+            "valid_from": 4700,
+            "received_at": 4700,
+            "_line": 6
+          }
+        },
+        "start_abs": 4895,
+        "end_abs": 4930,
+        "time_state": "past",
+        "active_students": [
+          "S5"
+        ],
+        "protected_students": [],
+        "present_students": [
+          "S5"
+        ],
+        "absent_students": [],
+        "active_count": 1,
+        "protected_count": 0,
+        "own_remaining_capacity": 0,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "time_past"
+        ],
+        "permission_used_global": 1,
+        "permission_remaining_global": 0
+      },
+      "O6": {
+        "opportunity": {
+          "id": "O6",
+          "activity": "E5",
+          "rotation": "R2",
+          "day": 5,
+          "begin": 540,
+          "end": 590,
+          "place": "B",
+          "scenario": "listen",
+          "mode": "sim",
+          "teachers": [
+            "T2"
+          ],
+          "capacity": 2,
+          "_line": 7
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T2"
+          ]
+        },
+        "permission": {
+          "status": "sim_no_clinical_permission_required",
+          "allowed": null,
+          "row": null,
+          "known_rows": [],
+          "source": "permission"
+        },
+        "original_permission": {
+          "allowed": null,
+          "status": "not_registered"
+        },
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "time_state": "upcoming",
+        "active_students": [
+          "S4"
+        ],
+        "protected_students": [
+          "S4"
+        ],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 1,
+        "protected_count": 1,
+        "own_remaining_capacity": 1,
+        "remaining_capacity": 1,
+        "bookable": true,
+        "not_bookable_reasons": [],
+        "permission_used_global": null,
+        "permission_remaining_global": null
+      },
+      "O7": {
+        "opportunity": {
+          "id": "O7",
+          "activity": "E6",
+          "rotation": "R1",
+          "day": 5,
+          "begin": 550,
+          "end": 590,
+          "place": "A",
+          "scenario": "explain",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 1,
+          "_line": 8
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E6",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 6600,
+            "received_at": 6600,
+            "_line": 8
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 1,
+          "status": "original_registered",
+          "row": {
+            "activity": "E6",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 6600,
+            "received_at": 6600,
+            "_line": 8
+          }
+        },
+        "start_abs": 7750,
+        "end_abs": 7790,
+        "time_state": "upcoming",
+        "active_students": [],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 0,
+        "protected_count": 0,
+        "own_remaining_capacity": 1,
+        "remaining_capacity": 1,
+        "bookable": true,
+        "not_bookable_reasons": [],
+        "permission_used_global": 0,
+        "permission_remaining_global": 1
+      },
+      "O8": {
+        "opportunity": {
+          "id": "O8",
+          "activity": "E7",
+          "rotation": "R1",
+          "day": 6,
+          "begin": 550,
+          "end": 600,
+          "place": "A",
+          "scenario": "explain",
+          "mode": "sim",
+          "teachers": [
+            "T2"
+          ],
+          "capacity": 2,
+          "_line": 9
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T2"
+          ]
+        },
+        "permission": {
+          "status": "sim_no_clinical_permission_required",
+          "allowed": null,
+          "row": null,
+          "known_rows": [],
+          "source": "permission"
+        },
+        "original_permission": {
+          "allowed": null,
+          "status": "not_registered"
+        },
+        "start_abs": 9190,
+        "end_abs": 9240,
+        "time_state": "upcoming",
+        "active_students": [],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 0,
+        "protected_count": 0,
+        "own_remaining_capacity": 2,
+        "remaining_capacity": 2,
+        "bookable": true,
+        "not_bookable_reasons": [],
+        "permission_used_global": null,
+        "permission_remaining_global": null
+      },
+      "O9": {
+        "opportunity": {
+          "id": "O9",
+          "activity": "E8",
+          "rotation": "R1",
+          "day": 6,
+          "begin": 560,
+          "end": 610,
+          "place": "A",
+          "scenario": "explain",
+          "mode": "real",
+          "teachers": [
+            "T1"
+          ],
+          "capacity": 1,
+          "_line": 10
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T1"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E8",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 8050,
+            "received_at": 8050,
+            "_line": 9
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 1,
+          "status": "original_registered",
+          "row": {
+            "activity": "E8",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 8050,
+            "received_at": 8050,
+            "_line": 9
+          }
+        },
+        "start_abs": 9200,
+        "end_abs": 9250,
+        "time_state": "upcoming",
+        "active_students": [
+          "S6"
+        ],
+        "protected_students": [
+          "S6"
+        ],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 1,
+        "protected_count": 1,
+        "own_remaining_capacity": 0,
+        "remaining_capacity": 0,
+        "bookable": false,
+        "not_bookable_reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted"
+        ],
+        "permission_used_global": 1,
+        "permission_remaining_global": 0
+      },
+      "O10": {
+        "opportunity": {
+          "id": "O10",
+          "activity": "E9",
+          "rotation": "R2",
+          "day": 7,
+          "begin": 570,
+          "end": 630,
+          "place": "B",
+          "scenario": "listen",
+          "mode": "real",
+          "teachers": [
+            "T3"
+          ],
+          "capacity": 1,
+          "_line": 11
+        },
+        "supervision": {
+          "ok": true,
+          "reason": "supervision_qualified",
+          "qualified": [
+            "T3"
+          ]
+        },
+        "permission": {
+          "status": "permission_ok",
+          "allowed": 1,
+          "row": {
+            "activity": "E9",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 9500,
+            "received_at": 9500,
+            "_line": 10
+          },
+          "source": null
+        },
+        "original_permission": {
+          "allowed": 1,
+          "status": "original_registered",
+          "row": {
+            "activity": "E9",
+            "restricted_mode": "real",
+            "allowed": 1,
+            "valid_from": 9500,
+            "received_at": 9500,
+            "_line": 10
+          }
+        },
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "time_state": "upcoming",
+        "active_students": [],
+        "protected_students": [],
+        "present_students": [],
+        "absent_students": [],
+        "active_count": 0,
+        "protected_count": 0,
+        "own_remaining_capacity": 1,
+        "remaining_capacity": 1,
+        "bookable": true,
+        "not_bookable_reasons": [],
+        "permission_used_global": 0,
+        "permission_remaining_global": 1
+      }
+    },
+    "rotation_metrics": [
+      {
+        "rotation": "R1",
+        "announcement_records": 4,
+        "metric_records": 4,
+        "planned_bookings": 4,
+        "planned_attendable": 3,
+        "actual_attendable": 2,
+        "completed": 1,
+        "actual_minus_completed_gap": 1,
+        "actual_unknown_past": 0,
+        "upcoming_records": 1,
+        "loss_supervision": 0,
+        "loss_activity": 1,
+        "loss_student": 1,
+        "loss_undetermined": 0,
+        "loss_pending": 0,
+        "primary_reasons": {
+          "consent_withdrawn": 1,
+          "student_confirmed_absent": 1
+        },
+        "all_factor_sources": {
+          "activity": 1,
+          "student": 2
+        },
+        "all_factor_reasons": {
+          "receipt_refused": 1,
+          "schedule_conflict": 1,
+          "student_confirmed_absent": 1
+        },
+        "reasons": {
+          "consent_withdrawn": 1,
+          "student_confirmed_absent": 1
+        },
+        "routes": {
+          "fulfilled": 1,
+          "coordinator_review_mixed_cause": 1,
+          "student_application": 1,
+          "pending_or_secured": 1
+        }
+      },
+      {
+        "rotation": "R2",
+        "announcement_records": 5,
+        "metric_records": 5,
+        "planned_bookings": 5,
+        "planned_attendable": 4,
+        "actual_attendable": 1,
+        "completed": 1,
+        "actual_minus_completed_gap": 0,
+        "actual_unknown_past": 0,
+        "upcoming_records": 1,
+        "loss_supervision": 2,
+        "loss_activity": 1,
+        "loss_student": 1,
+        "loss_undetermined": 0,
+        "loss_pending": 0,
+        "primary_reasons": {
+          "activity_cancelled": 1,
+          "supervision_shortage": 2,
+          "schedule_conflict": 1
+        },
+        "all_factor_sources": {
+          "activity": 1,
+          "supervision": 2,
+          "student": 1
+        },
+        "all_factor_reasons": {
+          "receipt_cancelled": 1,
+          "supervision_shortage": 2,
+          "schedule_conflict": 1
+        },
+        "reasons": {
+          "activity_cancelled": 1,
+          "supervision_shortage": 2,
+          "schedule_conflict": 1
+        },
+        "routes": {
+          "priority_compensation": 3,
+          "fulfilled": 1,
+          "student_application": 1
+        }
+      }
+    ]
+  },
+  "needs": [
+    {
+      "need_id": "N-S1-listen-1",
+      "student": "S1",
+      "course": "C1",
+      "original_rotation": "R1",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 6,
+      "apply_order": 2,
+      "remaining": 1,
+      "route": "standard_provision",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S2-explain-1",
+      "student": "S2",
+      "course": "C1",
+      "original_rotation": "R1",
+      "scenario": "explain",
+      "obligation_order": 1,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": false,
+      "deadline": 6,
+      "apply_order": 1,
+      "remaining": 1,
+      "route": "standard_provision",
+      "compensation_eligible": false,
+      "compensation_review_required": true,
+      "mixed_loss_basis": [
+        {
+          "record": "S2/O1",
+          "receipt": "X3",
+          "primary": "activity/consent_withdrawn",
+          "factors": [
+            {
+              "source": "activity",
+              "reason": "receipt_refused"
+            },
+            {
+              "source": "student",
+              "reason": "schedule_conflict"
+            }
+          ]
+        }
+      ],
+      "ward_loss_basis": [],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S2-listen-1",
+      "student": "S2",
+      "course": "C1",
+      "original_rotation": "R1",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 6,
+      "apply_order": 1,
+      "remaining": 1,
+      "route": "standard_provision",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S3-explain-1",
+      "student": "S3",
+      "course": "C1",
+      "original_rotation": "R2",
+      "scenario": "explain",
+      "obligation_order": 1,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": false,
+      "deadline": 7,
+      "apply_order": 3,
+      "remaining": 1,
+      "route": "priority_compensation",
+      "compensation_eligible": true,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [
+        {
+          "record": "S3/O2",
+          "receipt": "X2",
+          "source": "activity",
+          "reason": "activity_cancelled"
+        }
+      ],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S3-listen-1",
+      "student": "S3",
+      "course": "C1",
+      "original_rotation": "R2",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 7,
+      "apply_order": 3,
+      "remaining": 1,
+      "route": "priority_compensation",
+      "compensation_eligible": true,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [
+        {
+          "record": "S3/O3",
+          "receipt": null,
+          "source": "supervision",
+          "reason": "supervision_shortage"
+        }
+      ],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S4-explain-1",
+      "student": "S4",
+      "course": "C2",
+      "original_rotation": "R2",
+      "scenario": "explain",
+      "obligation_order": 1,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 8,
+      "apply_order": 4,
+      "remaining": 1,
+      "route": "standard_provision",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S4-listen-1",
+      "student": "S4",
+      "course": "C2",
+      "original_rotation": "R2",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 8,
+      "apply_order": 4,
+      "remaining": 1,
+      "route": "protected_hold_requires_swap",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [
+        {
+          "record": "S4/O3",
+          "receipt": null,
+          "source": "supervision",
+          "reason": "supervision_shortage"
+        }
+      ],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [
+        {
+          "opportunity": "O6",
+          "activity": "E5",
+          "mode": "sim",
+          "schedule_reason": "schedule_conflict",
+          "supervision_reason": "supervision_qualified",
+          "permission_status": "sim_no_clinical_permission_required",
+          "time_state": "upcoming"
+        }
+      ],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S5-listen-1",
+      "student": "S5",
+      "course": "C2",
+      "original_rotation": "R2",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 8,
+      "apply_order": 5,
+      "remaining": 1,
+      "route": "standard_provision",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [],
+      "no_show_basis": [],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    },
+    {
+      "need_id": "N-S6-listen-1",
+      "student": "S6",
+      "course": "C2",
+      "original_rotation": "R1",
+      "scenario": "listen",
+      "obligation_order": 2,
+      "gap_index": 1,
+      "required": 1,
+      "simulation_allowed": true,
+      "deadline": 8,
+      "apply_order": 6,
+      "remaining": 1,
+      "route": "student_application",
+      "compensation_eligible": false,
+      "compensation_review_required": false,
+      "mixed_loss_basis": [],
+      "ward_loss_basis": [],
+      "no_show_basis": [
+        {
+          "opportunity": "O4",
+          "receipt": "X4"
+        }
+      ],
+      "unknown_basis": [],
+      "unrecognized_sim": [],
+      "at_risk_holds": [],
+      "secured_activities": [],
+      "completed_activities": []
+    }
+  ],
+  "plan": {
+    "assignments": [
+      {
+        "assignment_id": "R001-S1-O6",
+        "status": "proposed_ready_for_coordinator_review",
+        "student": "S1",
+        "original_rotation": "R1",
+        "need_id": "N-S1-listen-1",
+        "fills_course": "C1",
+        "fills_scenario": "listen",
+        "gap_description": "C1/listen 第1项必修缺口",
+        "opportunity": "O6",
+        "activity": "E5",
+        "offering_rotation": "R2",
+        "mode": "sim",
+        "simulation_recognized": true,
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "deadline_day": 6,
+        "slot_score": 52.5,
+        "route": "standard_provision",
+        "compensation_eligible": false,
+        "compensation_review_required": false,
+        "mixed_loss_basis": [],
+        "ward_loss_basis": [],
+        "student_application_basis": [],
+        "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+      },
+      {
+        "assignment_id": "R002-S2-O7",
+        "status": "proposed_ready_for_coordinator_review",
+        "student": "S2",
+        "original_rotation": "R1",
+        "need_id": "N-S2-explain-1",
+        "fills_course": "C1",
+        "fills_scenario": "explain",
+        "gap_description": "C1/explain 第1项必修缺口",
+        "opportunity": "O7",
+        "activity": "E6",
+        "offering_rotation": "R1",
+        "mode": "real",
+        "simulation_recognized": true,
+        "day": 5,
+        "begin": 550,
+        "end": 590,
+        "place": "A",
+        "deadline_day": 6,
+        "slot_score": 75.0,
+        "route": "standard_provision",
+        "compensation_eligible": false,
+        "compensation_review_required": true,
+        "mixed_loss_basis": [
+          {
+            "record": "S2/O1",
+            "receipt": "X3",
+            "primary": "activity/consent_withdrawn",
+            "factors": [
+              {
+                "source": "activity",
+                "reason": "receipt_refused"
+              },
+              {
+                "source": "student",
+                "reason": "schedule_conflict"
+              }
+            ]
+          }
+        ],
+        "ward_loss_basis": [],
+        "student_application_basis": [],
+        "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+      },
+      {
+        "assignment_id": "R003-S3-O10",
+        "status": "proposed_ready_for_coordinator_review",
+        "student": "S3",
+        "original_rotation": "R2",
+        "need_id": "N-S3-listen-1",
+        "fills_course": "C1",
+        "fills_scenario": "listen",
+        "gap_description": "C1/listen 第1项必修缺口",
+        "opportunity": "O10",
+        "activity": "E9",
+        "offering_rotation": "R2",
+        "mode": "real",
+        "simulation_recognized": true,
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "deadline_day": 7,
+        "slot_score": 73.0,
+        "route": "priority_compensation",
+        "compensation_eligible": true,
+        "compensation_review_required": false,
+        "mixed_loss_basis": [],
+        "ward_loss_basis": [
+          {
+            "record": "S3/O3",
+            "receipt": null,
+            "source": "supervision",
+            "reason": "supervision_shortage"
+          }
+        ],
+        "student_application_basis": [],
+        "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+      },
+      {
+        "assignment_id": "R004-S4-O8",
+        "status": "proposed_ready_for_coordinator_review",
+        "student": "S4",
+        "original_rotation": "R2",
+        "need_id": "N-S4-explain-1",
+        "fills_course": "C2",
+        "fills_scenario": "explain",
+        "gap_description": "C2/explain 第1项必修缺口",
+        "opportunity": "O8",
+        "activity": "E7",
+        "offering_rotation": "R1",
+        "mode": "sim",
+        "simulation_recognized": true,
+        "day": 6,
+        "begin": 550,
+        "end": 600,
+        "place": "A",
+        "deadline_day": 8,
+        "slot_score": 51.0,
+        "route": "standard_provision",
+        "compensation_eligible": false,
+        "compensation_review_required": false,
+        "mixed_loss_basis": [],
+        "ward_loss_basis": [],
+        "student_application_basis": [],
+        "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+      }
+    ],
+    "consented_swaps": [],
+    "consent_errors": [],
+    "unresolved": [
+      {
+        "need_id": "N-S2-listen-1",
+        "student": "S2",
+        "original_rotation": "R1",
+        "course": "C1",
+        "scenario": "listen",
+        "deadline": 6,
+        "apply_order": 1,
+        "route": "standard_provision",
+        "compensation_eligible": false,
+        "primary_reason": "eligible_slot_allocated_to_higher_priority_need_or_blocked",
+        "primary_reason_zh": "合格时段已按保障顺序分给更高优先级缺口，或受保护安排阻挡",
+        "blocking_reason_counts": {
+          "after_deadline": 1,
+          "supervision_shortage": 1,
+          "capacity_exhausted": 2,
+          "permission_capacity_exhausted": 2,
+          "time_past": 2
+        },
+        "ward_loss_basis": [],
+        "no_show_basis": [],
+        "unknown_basis": [],
+        "at_risk_holds": [],
+        "candidate_count": 4
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "original_rotation": "R2",
+        "course": "C1",
+        "scenario": "explain",
+        "deadline": 7,
+        "apply_order": 3,
+        "route": "priority_compensation",
+        "compensation_eligible": true,
+        "primary_reason": "eligible_slot_allocated_to_higher_priority_need_or_blocked",
+        "primary_reason_zh": "合格时段已按保障顺序分给更高优先级缺口，或受保护安排阻挡",
+        "blocking_reason_counts": {
+          "capacity_exhausted": 4,
+          "permission_capacity_exhausted": 4,
+          "time_past": 3,
+          "simulation_substitution_not_recognized": 1
+        },
+        "ward_loss_basis": [
+          {
+            "record": "S3/O2",
+            "receipt": "X2",
+            "source": "activity",
+            "reason": "activity_cancelled"
+          }
+        ],
+        "no_show_basis": [],
+        "unknown_basis": [],
+        "at_risk_holds": [],
+        "candidate_count": 6
+      },
+      {
+        "need_id": "N-S4-listen-1",
+        "student": "S4",
+        "original_rotation": "R2",
+        "course": "C2",
+        "scenario": "listen",
+        "deadline": 8,
+        "apply_order": 4,
+        "route": "protected_hold_requires_swap",
+        "compensation_eligible": false,
+        "primary_reason": "accepted_appointment_protected_requires_one_student_consent_to_swap",
+        "primary_reason_zh": "已有受保护预约；不能自动释放，须先征得学生一次换约同意",
+        "blocking_reason_counts": {},
+        "ward_loss_basis": [
+          {
+            "record": "S4/O3",
+            "receipt": null,
+            "source": "supervision",
+            "reason": "supervision_shortage"
+          }
+        ],
+        "no_show_basis": [],
+        "unknown_basis": [],
+        "at_risk_holds": [
+          {
+            "opportunity": "O6",
+            "activity": "E5",
+            "mode": "sim",
+            "schedule_reason": "schedule_conflict",
+            "supervision_reason": "supervision_qualified",
+            "permission_status": "sim_no_clinical_permission_required",
+            "time_state": "upcoming"
+          }
+        ],
+        "candidate_count": 0
+      },
+      {
+        "need_id": "N-S5-listen-1",
+        "student": "S5",
+        "original_rotation": "R2",
+        "course": "C2",
+        "scenario": "listen",
+        "deadline": 8,
+        "apply_order": 5,
+        "route": "standard_provision",
+        "compensation_eligible": false,
+        "primary_reason": "eligible_slot_allocated_to_higher_priority_need_or_blocked",
+        "primary_reason_zh": "合格时段已按保障顺序分给更高优先级缺口，或受保护安排阻挡",
+        "blocking_reason_counts": {
+          "supervision_shortage": 1,
+          "capacity_exhausted": 2,
+          "permission_capacity_exhausted": 2,
+          "time_past": 2
+        },
+        "ward_loss_basis": [],
+        "no_show_basis": [],
+        "unknown_basis": [],
+        "at_risk_holds": [],
+        "candidate_count": 4
+      },
+      {
+        "need_id": "N-S6-listen-1",
+        "student": "S6",
+        "original_rotation": "R1",
+        "course": "C2",
+        "scenario": "listen",
+        "deadline": 8,
+        "apply_order": 6,
+        "route": "student_application",
+        "compensation_eligible": false,
+        "primary_reason": "capacity_or_deadline_blocks_all_slots",
+        "primary_reason_zh": "所有合格时段均被容量/截止日限制",
+        "blocking_reason_counts": {
+          "capacity_exhausted": 4,
+          "permission_capacity_exhausted": 3,
+          "supervision_shortage": 1,
+          "time_past": 2,
+          "student_already_booked_here": 1
+        },
+        "ward_loss_basis": [],
+        "no_show_basis": [
+          {
+            "opportunity": "O4",
+            "receipt": "X4"
+          }
+        ],
+        "unknown_basis": [],
+        "at_risk_holds": [],
+        "candidate_count": 4
+      }
+    ],
+    "slot_evaluations": [
+      {
+        "need_id": "N-S1-listen-1",
+        "student": "S1",
+        "opportunity": "O10",
+        "activity": "E9",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "remaining_capacity": 1,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "after_deadline"
+        ]
+      },
+      {
+        "need_id": "N-S1-listen-1",
+        "student": "S1",
+        "opportunity": "O3",
+        "activity": "E2",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "supervision_shortage",
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S1-listen-1",
+        "student": "S1",
+        "opportunity": "O4",
+        "activity": "E3",
+        "rotation": "R1",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S1-listen-1",
+        "student": "S1",
+        "opportunity": "O6",
+        "activity": "E5",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 52.5
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O1",
+        "activity": "E1",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": null,
+        "schedule_feasible": false,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past",
+          "schedule_conflict"
+        ]
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O2",
+        "activity": "E1",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": null,
+        "schedule_feasible": false,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past",
+          "schedule_conflict"
+        ]
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O5",
+        "activity": "E4",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 3,
+        "begin": 575,
+        "end": 610,
+        "place": "B",
+        "start_abs": 4895,
+        "end_abs": 4930,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O7",
+        "activity": "E6",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 5,
+        "begin": 550,
+        "end": 590,
+        "place": "A",
+        "start_abs": 7750,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 75.0
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O8",
+        "activity": "E7",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "sim",
+        "day": 6,
+        "begin": 550,
+        "end": 600,
+        "place": "A",
+        "start_abs": 9190,
+        "end_abs": 9240,
+        "remaining_capacity": 2,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "simulation_substitution_not_recognized"
+        ]
+      },
+      {
+        "need_id": "N-S2-explain-1",
+        "student": "S2",
+        "opportunity": "O9",
+        "activity": "E8",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 6,
+        "begin": 560,
+        "end": 610,
+        "place": "A",
+        "start_abs": 9200,
+        "end_abs": 9250,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted"
+        ]
+      },
+      {
+        "need_id": "N-S2-listen-1",
+        "student": "S2",
+        "opportunity": "O10",
+        "activity": "E9",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "remaining_capacity": 1,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "after_deadline"
+        ]
+      },
+      {
+        "need_id": "N-S2-listen-1",
+        "student": "S2",
+        "opportunity": "O3",
+        "activity": "E2",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "supervision_shortage",
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S2-listen-1",
+        "student": "S2",
+        "opportunity": "O4",
+        "activity": "E3",
+        "rotation": "R1",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S2-listen-1",
+        "student": "S2",
+        "opportunity": "O6",
+        "activity": "E5",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 52.5
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O1",
+        "activity": "E1",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O2",
+        "activity": "E1",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O5",
+        "activity": "E4",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 3,
+        "begin": 575,
+        "end": 610,
+        "place": "B",
+        "start_abs": 4895,
+        "end_abs": 4930,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O7",
+        "activity": "E6",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 5,
+        "begin": 550,
+        "end": 590,
+        "place": "A",
+        "start_abs": 7750,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 57.0
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O8",
+        "activity": "E7",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "sim",
+        "day": 6,
+        "begin": 550,
+        "end": 600,
+        "place": "A",
+        "start_abs": 9190,
+        "end_abs": 9240,
+        "remaining_capacity": 2,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "simulation_substitution_not_recognized"
+        ]
+      },
+      {
+        "need_id": "N-S3-explain-1",
+        "student": "S3",
+        "opportunity": "O9",
+        "activity": "E8",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 6,
+        "begin": 560,
+        "end": 610,
+        "place": "A",
+        "start_abs": 9200,
+        "end_abs": 9250,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted"
+        ]
+      },
+      {
+        "need_id": "N-S3-listen-1",
+        "student": "S3",
+        "opportunity": "O10",
+        "activity": "E9",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "remaining_capacity": 1,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 73.0
+      },
+      {
+        "need_id": "N-S3-listen-1",
+        "student": "S3",
+        "opportunity": "O3",
+        "activity": "E2",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "supervision_shortage",
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past",
+          "student_already_booked_here"
+        ]
+      },
+      {
+        "need_id": "N-S3-listen-1",
+        "student": "S3",
+        "opportunity": "O4",
+        "activity": "E3",
+        "rotation": "R1",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": false,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past",
+          "travel_impossible"
+        ]
+      },
+      {
+        "need_id": "N-S3-listen-1",
+        "student": "S3",
+        "opportunity": "O6",
+        "activity": "E5",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 70.0
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O1",
+        "activity": "E1",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O2",
+        "activity": "E1",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 1,
+        "begin": 565,
+        "end": 600,
+        "place": "A",
+        "start_abs": 2005,
+        "end_abs": 2040,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O5",
+        "activity": "E4",
+        "rotation": "R2",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 3,
+        "begin": 575,
+        "end": 610,
+        "place": "B",
+        "start_abs": 4895,
+        "end_abs": 4930,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O7",
+        "activity": "E6",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 5,
+        "begin": 550,
+        "end": 590,
+        "place": "A",
+        "start_abs": 7750,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": null,
+        "schedule_feasible": false,
+        "eligible": false,
+        "reasons": [
+          "schedule_conflict"
+        ]
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O8",
+        "activity": "E7",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "sim",
+        "day": 6,
+        "begin": 550,
+        "end": 600,
+        "place": "A",
+        "start_abs": 9190,
+        "end_abs": 9240,
+        "remaining_capacity": 2,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 51.0
+      },
+      {
+        "need_id": "N-S4-explain-1",
+        "student": "S4",
+        "opportunity": "O9",
+        "activity": "E8",
+        "rotation": "R1",
+        "scenario": "explain",
+        "mode": "real",
+        "day": 6,
+        "begin": 560,
+        "end": 610,
+        "place": "A",
+        "start_abs": 9200,
+        "end_abs": 9250,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted"
+        ]
+      },
+      {
+        "need_id": "N-S5-listen-1",
+        "student": "S5",
+        "opportunity": "O10",
+        "activity": "E9",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "remaining_capacity": 1,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 73.0
+      },
+      {
+        "need_id": "N-S5-listen-1",
+        "student": "S5",
+        "opportunity": "O3",
+        "activity": "E2",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "supervision_shortage",
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S5-listen-1",
+        "student": "S5",
+        "opportunity": "O4",
+        "activity": "E3",
+        "rotation": "R1",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "remaining_capacity": 0,
+        "travel_minutes": 30,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S5-listen-1",
+        "student": "S5",
+        "opportunity": "O6",
+        "activity": "E5",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "remaining_capacity": 1,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": true,
+        "reasons": [],
+        "slot_score": 70.0
+      },
+      {
+        "need_id": "N-S6-listen-1",
+        "student": "S6",
+        "opportunity": "O10",
+        "activity": "E9",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 7,
+        "begin": 570,
+        "end": 630,
+        "place": "B",
+        "start_abs": 10650,
+        "end_abs": 10710,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted"
+        ]
+      },
+      {
+        "need_id": "N-S6-listen-1",
+        "student": "S6",
+        "opportunity": "O3",
+        "activity": "E2",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 565,
+        "end": 600,
+        "place": "B",
+        "start_abs": 3445,
+        "end_abs": 3480,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "supervision_shortage",
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past"
+        ]
+      },
+      {
+        "need_id": "N-S6-listen-1",
+        "student": "S6",
+        "opportunity": "O4",
+        "activity": "E3",
+        "rotation": "R1",
+        "scenario": "listen",
+        "mode": "real",
+        "day": 2,
+        "begin": 575,
+        "end": 620,
+        "place": "A",
+        "start_abs": 3455,
+        "end_abs": 3500,
+        "remaining_capacity": 0,
+        "travel_minutes": 0,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted",
+          "permission_capacity_exhausted",
+          "time_past",
+          "student_already_booked_here"
+        ]
+      },
+      {
+        "need_id": "N-S6-listen-1",
+        "student": "S6",
+        "opportunity": "O6",
+        "activity": "E5",
+        "rotation": "R2",
+        "scenario": "listen",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "start_abs": 7740,
+        "end_abs": 7790,
+        "remaining_capacity": 0,
+        "travel_minutes": 25,
+        "schedule_feasible": true,
+        "eligible": false,
+        "reasons": [
+          "capacity_exhausted"
+        ]
+      }
+    ],
+    "do_not_send": [
+      {
+        "student": "S1",
+        "scope": "listen",
+        "code": "new_assignment_already_selected",
+        "detail": "本轮已生成安排，不重复发同一缺口邀请"
+      },
+      {
+        "student": "S2",
+        "scope": "explain",
+        "code": "new_assignment_already_selected",
+        "detail": "本轮已生成安排，不重复发同一缺口邀请"
+      },
+      {
+        "student": "S3",
+        "scope": "listen",
+        "code": "new_assignment_already_selected",
+        "detail": "本轮已生成安排，不重复发同一缺口邀请"
+      },
+      {
+        "student": "S4",
+        "scope": "explain",
+        "code": "new_assignment_already_selected",
+        "detail": "本轮已生成安排，不重复发同一缺口邀请"
+      },
+      {
+        "student": "S4",
+        "opportunity": "O6",
+        "scope": "listen",
+        "code": "accepted_appointment_protected",
+        "detail": "已接受预约不自动变空位；如需换约，只能向学生发起一次征询"
+      },
+      {
+        "student": "*",
+        "opportunity": "O9",
+        "scope": "explain",
+        "code": "opportunity_not_to_issue",
+        "detail": "capacity_exhausted,permission_capacity_exhausted"
+      },
+      {
+        "student": "S6",
+        "opportunity": "O9",
+        "scope": "explain",
+        "code": "accepted_appointment_protected",
+        "detail": "已接受预约不自动变空位；如需换约，只能向学生发起一次征询"
+      }
+    ],
+    "protected_appointments": [
+      {
+        "assignment_id": "HELD-S6-O9",
+        "status": "protected_existing_appointment",
+        "student": "S6",
+        "original_rotation": "R1",
+        "fills_course": "C2",
+        "fills_scenario": "explain",
+        "gap_description": "C2/explain 已接受预约",
+        "opportunity": "O9",
+        "activity": "E8",
+        "mode": "real",
+        "day": 6,
+        "begin": 560,
+        "end": 610,
+        "place": "A",
+        "time_state": "upcoming",
+        "performable_with_current_data": true,
+        "schedule_reason": "arrival_feasible",
+        "supervision_reason": "supervision_qualified",
+        "permission_status": "permission_ok",
+        "policy": "已接受预约受保护；不得自动释放或视为空位，只能征询一次换约"
+      },
+      {
+        "assignment_id": "HELD-S4-O6",
+        "status": "protected_existing_appointment",
+        "student": "S4",
+        "original_rotation": "R2",
+        "fills_course": "C2",
+        "fills_scenario": "listen",
+        "gap_description": "C2/listen 已接受预约",
+        "opportunity": "O6",
+        "activity": "E5",
+        "mode": "sim",
+        "day": 5,
+        "begin": 540,
+        "end": 590,
+        "place": "B",
+        "time_state": "upcoming",
+        "performable_with_current_data": false,
+        "schedule_reason": "schedule_conflict",
+        "supervision_reason": "supervision_qualified",
+        "permission_status": "sim_no_clinical_permission_required",
+        "policy": "已接受预约受保护；不得自动释放或视为空位，只能征询一次换约"
+      }
+    ],
+    "swap_consultations": [
+      {
+        "student": "S4",
+        "one_swap_only": true,
+        "from_opportunity": "O6",
+        "to_opportunity": "O10",
+        "fills": "C2/listen",
+        "status": "ask_student_for_voluntary_consent",
+        "consultable": true,
+        "recommended": true,
+        "preferred_option_for_hold": true,
+        "old_hold_at_risk": true,
+        "round_improvement": false,
+        "tradeoff_vs_baseline": {
+          "gains": [],
+          "loses_or_defers_baseline_gap": []
+        },
+        "old_seat_stays_protected_until_consent": true,
+        "new_slot": {
+          "day": 7,
+          "begin": 570,
+          "end": 630,
+          "place": "B",
+          "mode": "real",
+          "activity": "E9",
+          "slot_score": 73.0
+        },
+        "conditional_capacity_after_consent": {
+          "O6": 1,
+          "O10": -1
+        },
+        "released_old_slot_would_go_to": [
+          {
+            "student": "S1",
+            "need_id": "N-S1-listen-1",
+            "opportunity": "O6"
+          },
+          {
+            "student": "S3",
+            "need_id": "N-S3-listen-1",
+            "opportunity": "O6"
+          }
+        ],
+        "conditional_other_assignments": [
+          {
+            "student": "S1",
+            "need_id": "N-S1-listen-1",
+            "opportunity": "O6"
+          },
+          {
+            "student": "S2",
+            "need_id": "N-S2-explain-1",
+            "opportunity": "O7"
+          },
+          {
+            "student": "S3",
+            "need_id": "N-S3-listen-1",
+            "opportunity": "O6"
+          },
+          {
+            "student": "S4",
+            "need_id": "N-S4-explain-1",
+            "opportunity": "O8"
+          }
+        ],
+        "benefit": "消除已接受预约的时间/资料风险",
+        "do_not_reissue_old_opportunity_without_permission_clearance": false
+      },
+      {
+        "student": "S6",
+        "one_swap_only": true,
+        "from_opportunity": "O9",
+        "to_opportunity": "O8",
+        "fills": "C2/explain",
+        "status": "ask_student_for_voluntary_consent",
+        "consultable": true,
+        "recommended": true,
+        "preferred_option_for_hold": true,
+        "old_hold_at_risk": false,
+        "round_improvement": true,
+        "tradeoff_vs_baseline": {
+          "gains": [
+            {
+              "need_id": "N-S2-listen-1",
+              "gap": "S2:listen"
+            },
+            {
+              "need_id": "N-S3-explain-1",
+              "gap": "S3:explain"
+            }
+          ],
+          "loses_or_defers_baseline_gap": [
+            {
+              "need_id": "N-S1-listen-1",
+              "gap": "S1:listen"
+            }
+          ]
+        },
+        "old_seat_stays_protected_until_consent": true,
+        "new_slot": {
+          "day": 6,
+          "begin": 550,
+          "end": 600,
+          "place": "A",
+          "mode": "sim",
+          "activity": "E7",
+          "slot_score": 69.0
+        },
+        "conditional_capacity_after_consent": {
+          "O9": 1,
+          "O8": -1
+        },
+        "released_old_slot_would_go_to": [
+          {
+            "student": "S2",
+            "need_id": "N-S2-explain-1",
+            "opportunity": "O9"
+          }
+        ],
+        "conditional_other_assignments": [
+          {
+            "student": "S2",
+            "need_id": "N-S2-explain-1",
+            "opportunity": "O9"
+          },
+          {
+            "student": "S2",
+            "need_id": "N-S2-listen-1",
+            "opportunity": "O6"
+          },
+          {
+            "student": "S3",
+            "need_id": "N-S3-explain-1",
+            "opportunity": "O7"
+          },
+          {
+            "student": "S3",
+            "need_id": "N-S3-listen-1",
+            "opportunity": "O10"
+          },
+          {
+            "student": "S4",
+            "need_id": "N-S4-explain-1",
+            "opportunity": "O8"
+          }
+        ],
+        "benefit": "在不动其他保护预约的前提下释放唯一实地/合格时段给更高优先级缺口",
+        "do_not_reissue_old_opportunity_without_permission_clearance": false
+      },
+      {
+        "student": "S6",
+        "one_swap_only": true,
+        "from_opportunity": "O9",
+        "to_opportunity": "O7",
+        "fills": "C2/explain",
+        "status": "ask_student_for_voluntary_consent",
+        "consultable": true,
+        "recommended": false,
+        "preferred_option_for_hold": false,
+        "old_hold_at_risk": false,
+        "round_improvement": true,
+        "tradeoff_vs_baseline": {
+          "gains": [
+            {
+              "need_id": "N-S2-listen-1",
+              "gap": "S2:listen"
+            }
+          ],
+          "loses_or_defers_baseline_gap": [
+            {
+              "need_id": "N-S1-listen-1",
+              "gap": "S1:listen"
+            }
+          ]
+        },
+        "old_seat_stays_protected_until_consent": true,
+        "new_slot": {
+          "day": 5,
+          "begin": 550,
+          "end": 590,
+          "place": "A",
+          "mode": "real",
+          "activity": "E6",
+          "slot_score": 75.0
+        },
+        "conditional_capacity_after_consent": {
+          "O9": 1,
+          "O7": -1
+        },
+        "released_old_slot_would_go_to": [
+          {
+            "student": "S2",
+            "need_id": "N-S2-explain-1",
+            "opportunity": "O9"
+          }
+        ],
+        "conditional_other_assignments": [
+          {
+            "student": "S2",
+            "need_id": "N-S2-explain-1",
+            "opportunity": "O9"
+          },
+          {
+            "student": "S2",
+            "need_id": "N-S2-listen-1",
+            "opportunity": "O6"
+          },
+          {
+            "student": "S3",
+            "need_id": "N-S3-listen-1",
+            "opportunity": "O10"
+          },
+          {
+            "student": "S4",
+            "need_id": "N-S4-explain-1",
+            "opportunity": "O8"
+          }
+        ],
+        "benefit": "在不动其他保护预约的前提下释放唯一实地/合格时段给更高优先级缺口",
+        "do_not_reissue_old_opportunity_without_permission_clearance": false
+      }
+    ],
+    "release_consultations": [],
+    "stage1_fulfillment": {
+      "N-S2-explain-1": 1,
+      "N-S2-listen-1": 0,
+      "N-S1-listen-1": 1,
+      "N-S3-explain-1": 0,
+      "N-S3-listen-1": 1,
+      "N-S4-explain-1": 1,
+      "N-S5-listen-1": 0
+    },
+    "stage2_fulfillment": {
+      "N-S6-listen-1": 0
+    },
+    "priority_order": [
+      "N-S2-explain-1",
+      "N-S2-listen-1",
+      "N-S1-listen-1",
+      "N-S3-explain-1",
+      "N-S3-listen-1",
+      "N-S4-explain-1",
+      "N-S5-listen-1"
+    ],
+    "recommended_consent_requests": [
+      {
+        "student": "S4",
+        "from": "O6",
+        "to": "O10"
+      },
+      {
+        "student": "S6",
+        "from": "O9",
+        "to": "O8"
+      }
+    ],
+    "combined_preview_if_consents": {
+      "consents": [
+        {
+          "student": "S4",
+          "from": "O6",
+          "to": "O10"
+        },
+        {
+          "student": "S6",
+          "from": "O9",
+          "to": "O8"
+        }
+      ],
+      "assignments": [
+        {
+          "need_id": "N-S4-listen-1",
+          "student": "S4",
+          "opportunity": "O10",
+          "activity": "E9",
+          "rotation": "R2",
+          "scenario": "listen",
+          "mode": "real",
+          "day": 7,
+          "begin": 570,
+          "end": 630,
+          "place": "B",
+          "start_abs": 10650,
+          "end_abs": 10710,
+          "remaining_capacity": 1,
+          "travel_minutes": 0,
+          "schedule_feasible": true,
+          "eligible": true,
+          "reasons": [],
+          "slot_score": 73.0,
+          "assignment_id": "CS-S4-O6-O10",
+          "status": "consented_swap_confirmed",
+          "original_rotation": "R2",
+          "fills_course": "C2",
+          "fills_scenario": "listen",
+          "gap_description": "C2/listen 已同意换约",
+          "simulation_recognized": true,
+          "deadline_day": 8,
+          "route": "consented_swap",
+          "compensation_eligible": false,
+          "ward_loss_basis": [
+            {
+              "record": "S4/O3",
+              "receipt": null,
+              "source": "supervision",
+              "reason": "supervision_shortage"
+            }
+          ],
+          "student_application_basis": [],
+          "selection_basis": "学生已主动同意一次换约；旧位在同意前保持保护"
+        },
+        {
+          "need_id": "SECURED-S6-explain",
+          "student": "S6",
+          "opportunity": "O8",
+          "activity": "E7",
+          "rotation": "R1",
+          "scenario": "explain",
+          "mode": "sim",
+          "day": 6,
+          "begin": 550,
+          "end": 600,
+          "place": "A",
+          "start_abs": 9190,
+          "end_abs": 9240,
+          "remaining_capacity": 2,
+          "travel_minutes": 0,
+          "schedule_feasible": true,
+          "eligible": true,
+          "reasons": [],
+          "slot_score": 69.0,
+          "assignment_id": "CS-S6-O9-O8",
+          "status": "consented_swap_confirmed",
+          "original_rotation": "R1",
+          "fills_course": "C2",
+          "fills_scenario": "explain",
+          "gap_description": "C2/explain 已同意换约",
+          "simulation_recognized": true,
+          "deadline_day": 8,
+          "route": "consented_swap",
+          "compensation_eligible": false,
+          "ward_loss_basis": [],
+          "student_application_basis": [],
+          "selection_basis": "学生已主动同意一次换约；旧位在同意前保持保护"
+        },
+        {
+          "assignment_id": "R003-S1-O6",
+          "status": "proposed_ready_for_coordinator_review",
+          "student": "S1",
+          "original_rotation": "R1",
+          "need_id": "N-S1-listen-1",
+          "fills_course": "C1",
+          "fills_scenario": "listen",
+          "gap_description": "C1/listen 第1项必修缺口",
+          "opportunity": "O6",
+          "activity": "E5",
+          "offering_rotation": "R2",
+          "mode": "sim",
+          "simulation_recognized": true,
+          "day": 5,
+          "begin": 540,
+          "end": 590,
+          "place": "B",
+          "deadline_day": 6,
+          "slot_score": 52.5,
+          "route": "standard_provision",
+          "compensation_eligible": false,
+          "compensation_review_required": false,
+          "mixed_loss_basis": [],
+          "ward_loss_basis": [],
+          "student_application_basis": [],
+          "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+        },
+        {
+          "assignment_id": "R004-S2-O9",
+          "status": "proposed_ready_for_coordinator_review",
+          "student": "S2",
+          "original_rotation": "R1",
+          "need_id": "N-S2-explain-1",
+          "fills_course": "C1",
+          "fills_scenario": "explain",
+          "gap_description": "C1/explain 第1项必修缺口",
+          "opportunity": "O9",
+          "activity": "E8",
+          "offering_rotation": "R1",
+          "mode": "real",
+          "simulation_recognized": true,
+          "day": 6,
+          "begin": 560,
+          "end": 610,
+          "place": "A",
+          "deadline_day": 6,
+          "slot_score": 74.0,
+          "route": "standard_provision",
+          "compensation_eligible": false,
+          "compensation_review_required": true,
+          "mixed_loss_basis": [
+            {
+              "record": "S2/O1",
+              "receipt": "X3",
+              "primary": "activity/consent_withdrawn",
+              "factors": [
+                {
+                  "source": "activity",
+                  "reason": "receipt_refused"
+                },
+                {
+                  "source": "student",
+                  "reason": "schedule_conflict"
+                }
+              ]
+            }
+          ],
+          "ward_loss_basis": [],
+          "student_application_basis": [],
+          "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+        },
+        {
+          "assignment_id": "R005-S2-O6",
+          "status": "proposed_ready_for_coordinator_review",
+          "student": "S2",
+          "original_rotation": "R1",
+          "need_id": "N-S2-listen-1",
+          "fills_course": "C1",
+          "fills_scenario": "listen",
+          "gap_description": "C1/listen 第1项必修缺口",
+          "opportunity": "O6",
+          "activity": "E5",
+          "offering_rotation": "R2",
+          "mode": "sim",
+          "simulation_recognized": true,
+          "day": 5,
+          "begin": 540,
+          "end": 590,
+          "place": "B",
+          "deadline_day": 6,
+          "slot_score": 52.5,
+          "route": "standard_provision",
+          "compensation_eligible": false,
+          "compensation_review_required": false,
+          "mixed_loss_basis": [],
+          "ward_loss_basis": [],
+          "student_application_basis": [],
+          "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+        },
+        {
+          "assignment_id": "R006-S3-O7",
+          "status": "proposed_ready_for_coordinator_review",
+          "student": "S3",
+          "original_rotation": "R2",
+          "need_id": "N-S3-explain-1",
+          "fills_course": "C1",
+          "fills_scenario": "explain",
+          "gap_description": "C1/explain 第1项必修缺口",
+          "opportunity": "O7",
+          "activity": "E6",
+          "offering_rotation": "R1",
+          "mode": "real",
+          "simulation_recognized": true,
+          "day": 5,
+          "begin": 550,
+          "end": 590,
+          "place": "A",
+          "deadline_day": 7,
+          "slot_score": 57.0,
+          "route": "priority_compensation",
+          "compensation_eligible": true,
+          "compensation_review_required": false,
+          "mixed_loss_basis": [],
+          "ward_loss_basis": [
+            {
+              "record": "S3/O2",
+              "receipt": "X2",
+              "source": "activity",
+              "reason": "activity_cancelled"
+            }
+          ],
+          "student_application_basis": [],
+          "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+        },
+        {
+          "assignment_id": "R007-S4-O8",
+          "status": "proposed_ready_for_coordinator_review",
+          "student": "S4",
+          "original_rotation": "R2",
+          "need_id": "N-S4-explain-1",
+          "fills_course": "C2",
+          "fills_scenario": "explain",
+          "gap_description": "C2/explain 第1项必修缺口",
+          "opportunity": "O8",
+          "activity": "E7",
+          "offering_rotation": "R1",
+          "mode": "sim",
+          "simulation_recognized": true,
+          "day": 6,
+          "begin": 550,
+          "end": 600,
+          "place": "A",
+          "deadline_day": 8,
+          "slot_score": 51.0,
+          "route": "standard_provision",
+          "compensation_eligible": false,
+          "compensation_review_required": false,
+          "mixed_loss_basis": [],
+          "ward_loss_basis": [],
+          "student_application_basis": [],
+          "selection_basis": "整轮瓶颈优先：截止日→唯一合格时段→申请顺序；评分仅作同条件平局参考"
+        }
+      ],
+      "unresolved": [
+        {
+          "need_id": "N-S3-listen-1",
+          "student": "S3",
+          "original_rotation": "R2",
+          "course": "C1",
+          "scenario": "listen",
+          "deadline": 7,
+          "apply_order": 3,
+          "route": "priority_compensation",
+          "compensation_eligible": true,
+          "primary_reason": "eligible_slot_allocated_to_higher_priority_need_or_blocked",
+          "primary_reason_zh": "合格时段已按保障顺序分给更高优先级缺口，或受保护安排阻挡",
+          "blocking_reason_counts": {
+            "capacity_exhausted": 3,
+            "permission_capacity_exhausted": 3,
+            "supervision_shortage": 1,
+            "time_past": 2,
+            "student_already_booked_here": 1,
+            "travel_impossible": 1
+          },
+          "ward_loss_basis": [
+            {
+              "record": "S3/O3",
+              "receipt": null,
+              "source": "supervision",
+              "reason": "supervision_shortage"
+            }
+          ],
+          "no_show_basis": [],
+          "unknown_basis": [],
+          "at_risk_holds": [],
+          "candidate_count": 4
+        },
+        {
+          "need_id": "N-S5-listen-1",
+          "student": "S5",
+          "original_rotation": "R2",
+          "course": "C2",
+          "scenario": "listen",
+          "deadline": 8,
+          "apply_order": 5,
+          "route": "standard_provision",
+          "compensation_eligible": false,
+          "primary_reason": "eligible_slot_allocated_to_higher_priority_need_or_blocked",
+          "primary_reason_zh": "合格时段已按保障顺序分给更高优先级缺口，或受保护安排阻挡",
+          "blocking_reason_counts": {
+            "capacity_exhausted": 3,
+            "permission_capacity_exhausted": 3,
+            "supervision_shortage": 1,
+            "time_past": 2
+          },
+          "ward_loss_basis": [],
+          "no_show_basis": [],
+          "unknown_basis": [],
+          "at_risk_holds": [],
+          "candidate_count": 4
+        },
+        {
+          "need_id": "N-S6-listen-1",
+          "student": "S6",
+          "original_rotation": "R1",
+          "course": "C2",
+          "scenario": "listen",
+          "deadline": 8,
+          "apply_order": 6,
+          "route": "student_application",
+          "compensation_eligible": false,
+          "primary_reason": "capacity_or_deadline_blocks_all_slots",
+          "primary_reason_zh": "所有合格时段均被容量/截止日限制",
+          "blocking_reason_counts": {
+            "capacity_exhausted": 4,
+            "permission_capacity_exhausted": 3,
+            "supervision_shortage": 1,
+            "time_past": 2,
+            "student_already_booked_here": 1
+          },
+          "ward_loss_basis": [],
+          "no_show_basis": [
+            {
+              "opportunity": "O4",
+              "receipt": "X4"
+            }
+          ],
+          "unknown_basis": [],
+          "at_risk_holds": [],
+          "candidate_count": 4
+        }
+      ],
+      "consent_errors": []
+    }
+  }
+}

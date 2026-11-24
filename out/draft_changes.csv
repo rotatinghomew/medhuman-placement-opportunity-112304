@@ -1,0 +1,4 @@
+key,change,student,opportunity,old_receipt_status,new_receipt_status,old_loss,new_loss,old_completed,new_completed
+"('S4', 'O6')",new_announcement_or_evidence_window,,,,,,,,
+,,S5,O5,cancelled,present,activity/activity_cancelled,none/completed,False,True
+"('S6', 'O9')",new_announcement_or_evidence_window,,,,,,,,

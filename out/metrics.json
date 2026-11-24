@@ -1,0 +1,507 @@
+{
+  "as_of": null,
+  "now": 6940,
+  "rotation_metrics": [
+    {
+      "rotation": "R1",
+      "announcement_records": 4,
+      "metric_records": 4,
+      "planned_bookings": 4,
+      "planned_attendable": 3,
+      "actual_attendable": 2,
+      "completed": 1,
+      "actual_minus_completed_gap": 1,
+      "actual_unknown_past": 0,
+      "upcoming_records": 1,
+      "loss_supervision": 0,
+      "loss_activity": 1,
+      "loss_student": 1,
+      "loss_undetermined": 0,
+      "loss_pending": 0,
+      "primary_reasons": {
+        "consent_withdrawn": 1,
+        "student_confirmed_absent": 1
+      },
+      "all_factor_sources": {
+        "activity": 1,
+        "student": 2
+      },
+      "all_factor_reasons": {
+        "receipt_refused": 1,
+        "schedule_conflict": 1,
+        "student_confirmed_absent": 1
+      },
+      "reasons": {
+        "consent_withdrawn": 1,
+        "student_confirmed_absent": 1
+      },
+      "routes": {
+        "fulfilled": 1,
+        "coordinator_review_mixed_cause": 1,
+        "student_application": 1,
+        "pending_or_secured": 1
+      }
+    },
+    {
+      "rotation": "R2",
+      "announcement_records": 5,
+      "metric_records": 5,
+      "planned_bookings": 5,
+      "planned_attendable": 4,
+      "actual_attendable": 1,
+      "completed": 1,
+      "actual_minus_completed_gap": 0,
+      "actual_unknown_past": 0,
+      "upcoming_records": 1,
+      "loss_supervision": 2,
+      "loss_activity": 1,
+      "loss_student": 1,
+      "loss_undetermined": 0,
+      "loss_pending": 0,
+      "primary_reasons": {
+        "activity_cancelled": 1,
+        "supervision_shortage": 2,
+        "schedule_conflict": 1
+      },
+      "all_factor_sources": {
+        "activity": 1,
+        "supervision": 2,
+        "student": 1
+      },
+      "all_factor_reasons": {
+        "receipt_cancelled": 1,
+        "supervision_shortage": 2,
+        "schedule_conflict": 1
+      },
+      "reasons": {
+        "activity_cancelled": 1,
+        "supervision_shortage": 2,
+        "schedule_conflict": 1
+      },
+      "routes": {
+        "priority_compensation": 3,
+        "fulfilled": 1,
+        "student_application": 1
+      }
+    }
+  ],
+  "opportunity_metrics": [
+    {
+      "opportunity": "O1",
+      "activity": "E1",
+      "rotation": "R1",
+      "scenario": "explain",
+      "mode": "real",
+      "day": 1,
+      "begin": 565,
+      "end": 600,
+      "capacity": 2,
+      "time_state": "past",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 1,
+      "protected_count": 0,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "time_past"
+    },
+    {
+      "opportunity": "O10",
+      "activity": "E9",
+      "rotation": "R2",
+      "scenario": "listen",
+      "mode": "real",
+      "day": 7,
+      "begin": 570,
+      "end": 630,
+      "capacity": 1,
+      "time_state": "upcoming",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 0,
+      "protected_count": 0,
+      "remaining_capacity": 1,
+      "bookable": true,
+      "not_bookable_reasons": ""
+    },
+    {
+      "opportunity": "O2",
+      "activity": "E1",
+      "rotation": "R2",
+      "scenario": "explain",
+      "mode": "real",
+      "day": 1,
+      "begin": 565,
+      "end": 600,
+      "capacity": 2,
+      "time_state": "past",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 0,
+      "protected_count": 0,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "time_past"
+    },
+    {
+      "opportunity": "O3",
+      "activity": "E2",
+      "rotation": "R2",
+      "scenario": "listen",
+      "mode": "real",
+      "day": 2,
+      "begin": 565,
+      "end": 600,
+      "capacity": 1,
+      "time_state": "past",
+      "supervision_ok": false,
+      "supervision_reason": "supervision_shortage",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 2,
+      "protected_count": 0,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "time_past;supervision_shortage"
+    },
+    {
+      "opportunity": "O4",
+      "activity": "E3",
+      "rotation": "R1",
+      "scenario": "listen",
+      "mode": "real",
+      "day": 2,
+      "begin": 575,
+      "end": 620,
+      "capacity": 1,
+      "time_state": "past",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 1,
+      "protected_count": 0,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "time_past"
+    },
+    {
+      "opportunity": "O5",
+      "activity": "E4",
+      "rotation": "R2",
+      "scenario": "explain",
+      "mode": "real",
+      "day": 3,
+      "begin": 575,
+      "end": 610,
+      "capacity": 1,
+      "time_state": "past",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 1,
+      "protected_count": 0,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "time_past"
+    },
+    {
+      "opportunity": "O6",
+      "activity": "E5",
+      "rotation": "R2",
+      "scenario": "listen",
+      "mode": "sim",
+      "day": 5,
+      "begin": 540,
+      "end": 590,
+      "capacity": 2,
+      "time_state": "upcoming",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "sim_no_clinical_permission_required",
+      "permission_allowed": null,
+      "active_count": 1,
+      "protected_count": 1,
+      "remaining_capacity": 1,
+      "bookable": true,
+      "not_bookable_reasons": ""
+    },
+    {
+      "opportunity": "O7",
+      "activity": "E6",
+      "rotation": "R1",
+      "scenario": "explain",
+      "mode": "real",
+      "day": 5,
+      "begin": 550,
+      "end": 590,
+      "capacity": 1,
+      "time_state": "upcoming",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 0,
+      "protected_count": 0,
+      "remaining_capacity": 1,
+      "bookable": true,
+      "not_bookable_reasons": ""
+    },
+    {
+      "opportunity": "O8",
+      "activity": "E7",
+      "rotation": "R1",
+      "scenario": "explain",
+      "mode": "sim",
+      "day": 6,
+      "begin": 550,
+      "end": 600,
+      "capacity": 2,
+      "time_state": "upcoming",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "sim_no_clinical_permission_required",
+      "permission_allowed": null,
+      "active_count": 0,
+      "protected_count": 0,
+      "remaining_capacity": 2,
+      "bookable": true,
+      "not_bookable_reasons": ""
+    },
+    {
+      "opportunity": "O9",
+      "activity": "E8",
+      "rotation": "R1",
+      "scenario": "explain",
+      "mode": "real",
+      "day": 6,
+      "begin": 560,
+      "end": 610,
+      "capacity": 1,
+      "time_state": "upcoming",
+      "supervision_ok": true,
+      "supervision_reason": "supervision_qualified",
+      "permission_status": "permission_ok",
+      "permission_allowed": 1,
+      "active_count": 1,
+      "protected_count": 1,
+      "remaining_capacity": 0,
+      "bookable": false,
+      "not_bookable_reasons": "capacity_exhausted;permission_capacity_exhausted"
+    }
+  ],
+  "event_claims": [
+    {
+      "student": "S1",
+      "activity": "E1",
+      "opportunities": [
+        "O1"
+      ],
+      "receipt_ids": [
+        "X1"
+      ],
+      "completed": true,
+      "completion_counted_once": true,
+      "counted_opportunity": "O1"
+    },
+    {
+      "student": "S2",
+      "activity": "E1",
+      "opportunities": [
+        "O1"
+      ],
+      "receipt_ids": [
+        "X3"
+      ],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S3",
+      "activity": "E1",
+      "opportunities": [
+        "O2"
+      ],
+      "receipt_ids": [
+        "X2"
+      ],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S3",
+      "activity": "E2",
+      "opportunities": [
+        "O3"
+      ],
+      "receipt_ids": [],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S4",
+      "activity": "E2",
+      "opportunities": [
+        "O3"
+      ],
+      "receipt_ids": [],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S4",
+      "activity": "E5",
+      "opportunities": [
+        "O6"
+      ],
+      "receipt_ids": [
+        "X7"
+      ],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S5",
+      "activity": "E4",
+      "opportunities": [
+        "O5"
+      ],
+      "receipt_ids": [
+        "X6"
+      ],
+      "completed": true,
+      "completion_counted_once": true,
+      "counted_opportunity": "O5"
+    },
+    {
+      "student": "S6",
+      "activity": "E3",
+      "opportunities": [
+        "O4"
+      ],
+      "receipt_ids": [
+        "X4"
+      ],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    },
+    {
+      "student": "S6",
+      "activity": "E8",
+      "opportunities": [
+        "O9"
+      ],
+      "receipt_ids": [
+        "X8"
+      ],
+      "completed": false,
+      "completion_counted_once": false,
+      "counted_opportunity": null
+    }
+  ],
+  "activity_audit": [
+    {
+      "activity": "E1",
+      "opportunities": [
+        "O1",
+        "O2"
+      ],
+      "students": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "receipt_statuses": [
+        "cancelled",
+        "present",
+        "refused"
+      ],
+      "interpretation": "activity_occurred_but_some_student_seats_were_cancelled_or_evidence_conflicts",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    },
+    {
+      "activity": "E2",
+      "opportunities": [
+        "O3"
+      ],
+      "students": [
+        "S3",
+        "S4"
+      ],
+      "receipt_statuses": [
+        "missing"
+      ],
+      "interpretation": "no_completion_claim",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    },
+    {
+      "activity": "E3",
+      "opportunities": [
+        "O4"
+      ],
+      "students": [
+        "S6"
+      ],
+      "receipt_statuses": [
+        "no_show"
+      ],
+      "interpretation": "no_completion_claim",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    },
+    {
+      "activity": "E4",
+      "opportunities": [
+        "O5"
+      ],
+      "students": [
+        "S5"
+      ],
+      "receipt_statuses": [
+        "present"
+      ],
+      "interpretation": "occurred",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    },
+    {
+      "activity": "E5",
+      "opportunities": [
+        "O6"
+      ],
+      "students": [
+        "S4"
+      ],
+      "receipt_statuses": [
+        "held"
+      ],
+      "interpretation": "no_completion_claim",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    },
+    {
+      "activity": "E8",
+      "opportunities": [
+        "O9"
+      ],
+      "students": [
+        "S6"
+      ],
+      "receipt_statuses": [
+        "held"
+      ],
+      "interpretation": "no_completion_claim",
+      "idempotency_rule": "同一学生+activity只计一次完成；改派后的新activity另计"
+    }
+  ]
+}

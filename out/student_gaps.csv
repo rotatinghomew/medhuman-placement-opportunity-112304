@@ -1,0 +1,10 @@
+need_id,student,course,original_rotation,scenario,obligation_order,gap_index,required,simulation_allowed,deadline,apply_order,remaining,route,compensation_eligible,compensation_review_required,mixed_loss_basis,ward_loss_basis,no_show_basis,unknown_basis,unrecognized_sim,at_risk_holds,secured_activities,completed_activities
+N-S1-listen-1,S1,C1,R1,listen,2,1,1,True,6,2,1,standard_provision,False,False,[],[],[],[],[],[],[],[]
+N-S2-explain-1,S2,C1,R1,explain,1,1,1,False,6,1,1,standard_provision,False,True,"[{""factors"": [{""reason"": ""receipt_refused"", ""source"": ""activity""}, {""reason"": ""schedule_conflict"", ""source"": ""student""}], ""primary"": ""activity/consent_withdrawn"", ""receipt"": ""X3"", ""record"": ""S2/O1""}]",[],[],[],[],[],[],[]
+N-S2-listen-1,S2,C1,R1,listen,2,1,1,True,6,1,1,standard_provision,False,False,[],[],[],[],[],[],[],[]
+N-S3-explain-1,S3,C1,R2,explain,1,1,1,False,7,3,1,priority_compensation,True,False,[],"[{""reason"": ""activity_cancelled"", ""receipt"": ""X2"", ""record"": ""S3/O2"", ""source"": ""activity""}]",[],[],[],[],[],[]
+N-S3-listen-1,S3,C1,R2,listen,2,1,1,True,7,3,1,priority_compensation,True,False,[],"[{""reason"": ""supervision_shortage"", ""receipt"": null, ""record"": ""S3/O3"", ""source"": ""supervision""}]",[],[],[],[],[],[]
+N-S4-explain-1,S4,C2,R2,explain,1,1,1,True,8,4,1,standard_provision,False,False,[],[],[],[],[],[],[],[]
+N-S4-listen-1,S4,C2,R2,listen,2,1,1,True,8,4,1,protected_hold_requires_swap,False,False,[],"[{""reason"": ""supervision_shortage"", ""receipt"": null, ""record"": ""S4/O3"", ""source"": ""supervision""}]",[],[],[],"[{""activity"": ""E5"", ""mode"": ""sim"", ""opportunity"": ""O6"", ""permission_status"": ""sim_no_clinical_permission_required"", ""schedule_reason"": ""schedule_conflict"", ""supervision_reason"": ""supervision_qualified"", ""time_state"": ""upcoming""}]",[],[]
+N-S5-listen-1,S5,C2,R2,listen,2,1,1,True,8,5,1,standard_provision,False,False,[],[],[],[],[],[],[],[]
+N-S6-listen-1,S6,C2,R1,listen,2,1,1,True,8,6,1,student_application,False,False,[],[],"[{""opportunity"": ""O4"", ""receipt"": ""X4""}]",[],[],[],[],[]

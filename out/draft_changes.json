@@ -1,0 +1,30 @@
+{
+  "old_as_of": 4830,
+  "new_as_of": 6950,
+  "changes": [
+    {
+      "key": [
+        "S4",
+        "O6"
+      ],
+      "change": "new_announcement_or_evidence_window"
+    },
+    {
+      "student": "S5",
+      "opportunity": "O5",
+      "old_receipt_status": "cancelled",
+      "new_receipt_status": "present",
+      "old_loss": "activity/activity_cancelled",
+      "new_loss": "none/completed",
+      "old_completed": false,
+      "new_completed": true
+    },
+    {
+      "key": [
+        "S6",
+        "O9"
+      ],
+      "change": "new_announcement_or_evidence_window"
+    }
+  ]
+}

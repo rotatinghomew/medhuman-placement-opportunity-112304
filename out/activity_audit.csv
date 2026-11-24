@@ -1,0 +1,7 @@
+activity,opportunities,students,receipt_statuses,interpretation,idempotency_rule
+E1,"[""O1"", ""O2""]","[""S1"", ""S2"", ""S3""]","[""cancelled"", ""present"", ""refused""]",activity_occurred_but_some_student_seats_were_cancelled_or_evidence_conflicts,同一学生+activity只计一次完成；改派后的新activity另计
+E2,"[""O3""]","[""S3"", ""S4""]","[""missing""]",no_completion_claim,同一学生+activity只计一次完成；改派后的新activity另计
+E3,"[""O4""]","[""S6""]","[""no_show""]",no_completion_claim,同一学生+activity只计一次完成；改派后的新activity另计
+E4,"[""O5""]","[""S5""]","[""present""]",occurred,同一学生+activity只计一次完成；改派后的新activity另计
+E5,"[""O6""]","[""S4""]","[""held""]",no_completion_claim,同一学生+activity只计一次完成；改派后的新activity另计
+E8,"[""O9""]","[""S6""]","[""held""]",no_completion_claim,同一学生+activity只计一次完成；改派后的新activity另计

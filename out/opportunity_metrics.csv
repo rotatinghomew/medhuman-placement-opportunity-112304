@@ -1,0 +1,11 @@
+opportunity,activity,rotation,scenario,mode,day,begin,end,capacity,time_state,supervision_ok,supervision_reason,permission_status,permission_allowed,active_count,protected_count,remaining_capacity,bookable,not_bookable_reasons
+O1,E1,R1,explain,real,1,565,600,2,past,True,supervision_qualified,permission_ok,1,1,0,0,False,time_past
+O10,E9,R2,listen,real,7,570,630,1,upcoming,True,supervision_qualified,permission_ok,1,0,0,1,True,
+O2,E1,R2,explain,real,1,565,600,2,past,True,supervision_qualified,permission_ok,1,0,0,0,False,time_past
+O3,E2,R2,listen,real,2,565,600,1,past,False,supervision_shortage,permission_ok,1,2,0,0,False,time_past;supervision_shortage
+O4,E3,R1,listen,real,2,575,620,1,past,True,supervision_qualified,permission_ok,1,1,0,0,False,time_past
+O5,E4,R2,explain,real,3,575,610,1,past,True,supervision_qualified,permission_ok,1,1,0,0,False,time_past
+O6,E5,R2,listen,sim,5,540,590,2,upcoming,True,supervision_qualified,sim_no_clinical_permission_required,,1,1,1,True,
+O7,E6,R1,explain,real,5,550,590,1,upcoming,True,supervision_qualified,permission_ok,1,0,0,1,True,
+O8,E7,R1,explain,sim,6,550,600,2,upcoming,True,supervision_qualified,sim_no_clinical_permission_required,,0,0,2,True,
+O9,E8,R1,explain,real,6,560,610,1,upcoming,True,supervision_qualified,permission_ok,1,1,1,0,False,capacity_exhausted;permission_capacity_exhausted
